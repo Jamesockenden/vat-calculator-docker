@@ -15,4 +15,6 @@ COPY . .
 # package up the react project in the /app directory
 RUN npm run build
 
+EXPOSE 3000
+
 CMD ["npm", "run", "start"]
