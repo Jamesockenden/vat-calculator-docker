@@ -196,6 +196,6 @@ test('async updates VAT to Pay when NET is set to 100 and VAT is 20', async () =
   // Wait for VAT to pay value to be updated
   await waitFor(() => {
     expect(firstInput.value).toBe('83.33');
-    expect(vatText.innerHTML).toBe('VAT to pay:  16.67');
+    expect(vatText.innerHTML).toBe('VAT to pay 16.67');
   });
 });
