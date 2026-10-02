@@ -4,7 +4,8 @@
 }
 
 .colour-border{
-  border: 3px solid rgb(184, 31, 115);
+  border: 3px solid #3a3a3a;
+  background-color: #969794;
   padding: 10px;
 }
 
@@ -26,4 +27,5 @@ body{
 a {
 color: #96f300;
 }
+
 
